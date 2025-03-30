@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Footer from "./components/Footer";
 import Shop from "./Home/Shop";
 import Cart from "./Home/Cart";
+import Contect from "./Home/Contect";
 const App = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop/>} />
           <Route path="/cart" element={<Cart/>}></Route>
+          <Route path="/contect" element={<Contect/>}></Route>
         </Routes>
       <Footer />
       </BrowserRouter>

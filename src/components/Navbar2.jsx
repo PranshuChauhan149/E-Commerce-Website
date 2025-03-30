@@ -15,7 +15,7 @@ const len = (items.cart.length);
        </NavLink>
        <NavLink to="/cart" > <li className='font-bold text-white  hover:cursor-pointer hover:text-gray-900'>Cart</li>
       </NavLink>
-      <NavLink> <li className='font-bold text-white  hover:cursor-pointer hover:text-gray-900'>Contect</li>
+      <NavLink to="/contect"> <li className='font-bold text-white  hover:cursor-pointer hover:text-gray-900'>Contect</li>
       </NavLink>
       </ul>
       

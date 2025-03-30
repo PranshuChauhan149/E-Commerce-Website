@@ -17,6 +17,7 @@ const Products = ({name,image,price,id}) => {
     <p className="text-md text-gray-600 text-center font-medium">Rs {price}/-</p>
     <button className="mt-4 w-full bg-blue-600 text-white py-3 rounded-lg text-sm font-semibold hover:bg-blue-700 transition hover:cursor-pointer"  onClick={()=>{
       dispatch(AddtoCart({id:id,name:name,image:image,price:price}))
+      alert("Product Added successfully..")
     }} >Add to Cart</button>
   </div>
   )

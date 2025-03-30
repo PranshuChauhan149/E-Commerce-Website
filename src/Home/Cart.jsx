@@ -37,7 +37,7 @@ const Cart = () => {
                 Remove
               </button>
               <RiDeleteBin5Fill className='text-red-500 text-2xl cursor-pointer hover:text-red-700'
-                onClick={() => { dispatch(RemoveCart( item.id )) }} />
+                onClick={() => { dispatch(RemoveCart( item.id )) ;alert("Product Remove successfully..") }  } />
             </div>
           </div>
 
