@@ -24,9 +24,9 @@ const len = (items.cart.length);
 
   return (
     <div className="bg-gray-800 h-[80px] w-full text-white flex justify-between px-4 items-center">
-      <div className="flex items-center gap-1  justify-center">
-      <p className="text-2xl">V-Shop</p>
-      <FiShoppingBag className="text-2xl font-bold"/>
+      <div className="flex items-center gap-1  justify-center"   >
+      <p className="text-2xl hover:cursor-pointer" onClick={()=>navigate("/")} >V-Shop</p>
+      <FiShoppingBag className="text-2xl font-bold hover:cursor-pointer" onClick={()=>navigate("/")}  />
 
       </div>
       <div className="flex w-[50%] h-[60%] bg-white px-4 p-2 rounded-2xl" >
