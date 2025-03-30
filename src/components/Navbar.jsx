@@ -36,7 +36,7 @@ const len = (items.cart.length);
       </div>
       <div className="relative h-[50%] flex items-center justify-between">
         <span className="absolute top-[-9px] right-[-5px]">{len}</span>
-        <FiShoppingCart className="text-3xl font-bold"   onClick={()=>navigate("/cart")} />
+        <FiShoppingCart className="text-3xl font-bold hover:cursor-pointer "   onClick={()=>navigate("/cart")} />
       </div>
     </div>
   );
